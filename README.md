@@ -57,6 +57,16 @@ flag-3 :  flag3{Y29udGludWVUT2Ntcw==}
 hint after decoding the base64 text : continueTOcms
 
 
+after sql injection i get manage to get flag4
+
+flag4: flag4{dXBsb2Fkcjk0Mi5waHA=}
+base64(dXBsb2Fkcjk0Mi5waHA=):uploadr942.php
+
+
+this was found to be a directry name
+
+
+
 flag-5 at <ip>/imfadministrator/uploadr942.php
 
 
