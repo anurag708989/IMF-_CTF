@@ -100,10 +100,12 @@ it is a name given to image uploaded to uploads directry however uploads
 directry itself is forbidden
 
 
-
+![](succesful_gif_upload.png)
 
 <!-- 087c72a93538 --> this is name of gif directry made with a gif signature
 and appended with a simple phpinfo() function
+
+![](upload_bypassed.png)
 
 flag-5 
 
