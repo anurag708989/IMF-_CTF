@@ -63,6 +63,7 @@ hint after decoding the base64 text : continueTOcms
 
 
 after sql injection i get manage to get flag4
+![](sql_injection.png)
 
 flag4: flag4{dXBsb2Fkcjk0Mi5waHA=}
 base64(dXBsb2Fkcjk0Mi5waHA=):uploadr942.php
