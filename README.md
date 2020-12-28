@@ -1,7 +1,10 @@
 ## ----------------------------------Basic Enumeration----------------------
 Nmap scan:
 
+
+
 PORT   STATE SERVICE VERSION
+
 80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
 | http-methods: 
 |_  Supported Methods: GET HEAD POST OPTIONS
