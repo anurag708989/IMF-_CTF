@@ -28,7 +28,7 @@ Gobuster Scan:
 
 
 
-![](flag1.php)
+![](flag1.png)
 flag-1: flag1{YWxsdGhlZmlsZXM=}
 YWxsdGhlZmlsZXM=(base64 encoded):allfiles
 
@@ -44,7 +44,7 @@ combining all the three we get a base64 encoded text
 ZmxhZzJ7YVcxbVlXUnRhVzVwYzNSeVlYUnZjZz09fQ==
 
 flag-2: flag2{aW1mYWRtaW5pc3RyYXRvcg==}
-![](flag2.php)
+![](flag2.png)
 Hint after decoding the base64:imfadministrator
 
 after going to /imfadministrator directry found a login page 
@@ -58,7 +58,7 @@ password parameter when string is added to array parameter then it will return
 null and the login is bypassed
 
 flag-3 :  flag3{Y29udGludWVUT2Ntcw==}
-![](flag3.php)
+![](flag3.png)
 hint after decoding the base64 text : continueTOcms
 
 
