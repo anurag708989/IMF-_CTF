@@ -65,9 +65,51 @@ base64(dXBsb2Fkcjk0Mi5waHA=):uploadr942.php
 
 this was found to be a directry name
 
+------------------------------------------------------
+it is restricting all .php files or containing .jpg.php 
+we are not able to trick it.
+but when simple images is uploaded
+html>
+<head>
+<title>File Uploader</title>
+</head>
+<body>
+<h1>Intelligence Upload Form</h1> 
+File successfully uploaded.
+<!-- be18dbc45dd7 --><form id="Upload" action="" enctype="multipart/form-data" method="post">
+	<p> 
+		<label for="file">File to upload:</label> 
+		<input id="file" type="file" name="file"> 
+	</p> 
+                 
+    <p> 
+    	<input id="submit" type="submit" name="submit" value="Upload"> 
+    </p> 
+</form>
+
+</body>
+</html>
 
 
-flag-5 at <ip>/imfadministrator/uploadr942.php
+------------------------------------------------------
+this is shown
+
+decoding this {be18dbc45dd7} not get a meaningful string so it may be the
+directry where all stuffed is uploaded but no!!!!
+it is a name given to image uploaded to uploads directry however uploads
+directry itself is forbidden
+
+
+
+
+<!-- 087c72a93538 --> this is name of gif directry made with a gif signature
+and appended with a simple phpinfo() function
+
+flag-5 
+
+
+
+at <ip>/imfadministrator/uploadr942.php
 
 
 ------------------------------------------------------------------------
